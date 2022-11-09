@@ -58,10 +58,22 @@ a{
 }
 
 #button{
+    all: unset;
     text-transform: uppercase;
-    font-weight: bolder;
-    background-color: transparent;
+    font-weight: 700;
+    color: white;
     padding: 10px 20px;
-    border: 1px solid #000;
-    border-radius: 10px;
+    border: 0;
+    background-color: #010D13;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+#button:hover{
+    background-color: #041c28;
+}
+
+#button:active {
+    background-color: #010D13;
 }
